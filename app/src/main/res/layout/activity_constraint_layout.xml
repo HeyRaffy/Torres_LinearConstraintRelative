@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConstraintLayout">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="384dp"
+        android:layout_height="55dp"
+        android:background="@android:color/holo_blue_light"
+        android:padding="8dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        android:text="Constraint Layout"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="383dp"
+        android:layout_height="333dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintTop_toTopOf="@+id/textView10"
+        tools:layout_editor_absoluteX="0dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="333dp"
+            app:srcCompat="@drawable/miriam"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="384dp">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:gravity="center"
+            android:text="MIRIAM SANTIAGO"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="386dp"
+        android:layout_height="528dp"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="423dp">
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="154dp"
+            android:layout_height="wrap_content"
+            android:text="Senate of the Philippines"
+            tools:layout_editor_absoluteX="5dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="172dp"
+            android:layout_height="310dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="55dp">
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="172dp"
+                android:layout_height="wrap_content"
+                android:text="bACK"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="167dp"
+            android:layout_height="463dp"
+            tools:layout_editor_absoluteX="203dp"
+            tools:layout_editor_absoluteY="49dp">
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="167dp"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="9dp" />
+        </android.support.constraint.ConstraintLayout>
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="443dp">
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="289dp"
+            android:layout_height="21dp"
+            android:text="9.3 kilometers away"
+            tools:layout_editor_absoluteX="4dp"
+            tools:layout_editor_absoluteY="4dp" />
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>
